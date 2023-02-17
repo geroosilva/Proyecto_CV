@@ -12,7 +12,7 @@ body {
 }
 
 .contenedor {
-    width: 80%;
+    width: 70%;
     height: 100em;
     background-color: white;
     margin: 60px auto;
@@ -58,7 +58,6 @@ body {
 }
 
 .izquierda .contenido_izquierda {
-    border: 1px solid black;
     height: 1160px;
     margin-left: 20px;
     margin-right: 20px;
@@ -67,16 +66,11 @@ body {
     color: white;
 }
 
-.izquierda .contenido_izquierda h3 {
-    margin: 10px 0px;
-}
-
 .izquierda .contenido_izquierda p {
     margin-left: 10px;
 }
 
 .derecha {
-    border: 1px solid black;
     position: absolute;
     top: 420px;
     right: 20px;
@@ -90,11 +84,15 @@ h3 {
     font-size: 30px;
 }
 
-.titulo_educacion {
+.titulo_estudios {
     margin: 10px 0px;
 }
 
 .titulo_experiencia_laboral {
+    margin: 50px 0px 10px 0px;
+}
+
+.titulo_cursos_idiomas {
     margin: 50px 0px 10px 0px;
 }
     
@@ -115,12 +113,45 @@ h3 {
     list-style: none;
 }
 
-.ul_circle {
-    font-style: italic;
-}
-
 .li_circle {   
     margin-left: 45px;
     
+}
+
+.titulo_habilidades {
+    margin: 50px 0px 10px 0px;
+}
+
+.li_habilidades {
+    margin-left: 10px;
+    list-style:none;
+}
+
+
+.titulo_contacto {
+    margin: 50px 0px 10px 0px;
+}
+
+.titulo_sobre_mi {
+    margin: 10px 0px;
+}
+
+.li_contacto {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.fa-phone:before{
+    margin-right: 8px;
+}
+
+.fa-envelope:before{
+    margin-right: 8px;
+}
+
+.fa-map-location-dot:before, .fa-map-marked-alt:before {
+    margin-right: 8px;
 }
 
